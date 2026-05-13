@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>aha - Login</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="login-body">
+    <div class="auth-page">
+      <div class="auth-card">
+        <div class="brand-block">
+          <span class="brand-tag">OTT Desktop App</span>
+          <h1>aha</h1>
+          <p>Login if you already have an account or sign up to create one.</p>
+        </div>
+
+        <div class="auth-form">
+          <label for="username">Username</label>
+          <input id="username" type="text" placeholder="Enter username" />
+
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Enter password" />
+
+          <div class="auth-actions">
+            <button id="loginBtn" class="primary-btn">Login</button>
+            <button id="signupBtn" class="secondary-btn">Sign Up</button>
+          </div>
+
+          <p id="authMessage" class="message-text"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/storage.js"></script>
+    <script src="./js/auth.js"></script>
+  </body>
+</html>

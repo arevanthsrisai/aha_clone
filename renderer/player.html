@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>aha - Player</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="player-page">
+      <div class="player-topbar">
+        <button id="backBtn" class="secondary-btn">Back</button>
+        <h1 id="videoTitle">Video Player</h1>
+      </div>
+
+      <div class="player-wrapper">
+        <video controls autoplay id="videoPlayer">
+          <source id="videoSource" src="" type="video/mp4" />
+        </video>
+        <p id="playerMessage" class="message-text"></p>
+      </div>
+    </main>
+
+    <script src="./js/storage.js"></script>
+    <script src="./js/player.js"></script>
+  </body>
+</html>

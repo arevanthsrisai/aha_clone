@@ -1,0 +1,9 @@
+{
+  "name": "aha-browser-backend",
+  "version": "1.0.0",
+  "description": "Minimal AHA app with bare minimum Node backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
