@@ -1,1 +1,51 @@
-[]
+[ 
+{
+    "id": 1,
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "thumbnail": "assets/harry_1.jpg",
+    "video": "videos/harry_1.mp4",
+    "category": "Movies"
+  },
+  {
+    "id": 2,
+    "title": "Harry Potter and the Chamber of Secrets",
+    "thumbnail": "assets/harry_2.jpg",
+    "video": "videos/harry_2.mp4",
+    "category": "Movies"
+  },
+  {
+    "id": 3,
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "thumbnail": "assets/harry_3.jpg",
+    "video": "videos/harry_3.mp4",
+    "category": "Movies"
+  },
+  {
+    "id": 4,
+    "title": "Harry Potter and the Goblet of Fire",
+    "thumbnail": "assets/harry_4.jpg",
+    "video": "videos/harry_4.mp4",
+    "category": "Movies"
+  },
+  {
+    "id": 5,
+    "title": "Harry Potter and the Order of the Phoenix",
+    "thumbnail": "assets/harry_5.jpg",
+    "video": "videos/harry_5.mp4",
+    "category": "Movies"
+  },
+  {
+    "id": 6,
+    "title": "Harry Potter and the Half-Blood Prince",
+    "thumbnail": "assets/harry_6.jpg",
+    "video": "videos/harry_6.mp4",
+    "category": "Movies"
+  },
+  {
+    "id": 7,
+    "title": "Harry Potter and the Deathly Hallows",
+    "thumbnail": "assets/harry_7.jpg",
+    "video": "videos/harry_7.mp4",
+    "category": "Movies"
+  }
+]
